@@ -194,7 +194,7 @@ def update_output(value):
 
 def update_plot(xaxis_column_name):
 
-    updated_plot = make_plot(xaxis_column_name, yaxis_column_name)).to_html()
+    updated_plot = make_plot(xaxis_column_name, yaxis_column_name).to_html()
 
     return updated_plot
 
